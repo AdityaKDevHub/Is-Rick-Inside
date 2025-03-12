@@ -1,0 +1,14 @@
+rdenv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+*.env
+
+*.log
+*.tmp
+*.swp
+*.bak
