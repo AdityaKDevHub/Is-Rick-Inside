@@ -34,14 +34,10 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 Here, _env_ is the name of the virtual environment, but you may change it to your preference.
 >
 > 4) Activate the virtual environment:
->     - Windows:
-      ```sh
-      env\Scripts\activate
-      ```
->    - MacOS/Linux:
-      ```sh
-      source env/bin/activate
-      ```
+>     - Windows: \
+      ``` env\Scripts\activate```
+>    - MacOS/Linux: \
+      ```source env/bin/activate```
 > 5) Install dependencies from **requirements.txt**:
 >  ```sh
 >  py -m pip install -r requirements.txt
