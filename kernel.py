@@ -15,17 +15,17 @@ def UpdateLists(prediction, url, datafile="links.json"):
       print(Fore.LIGHTMAGENTA_EX + "\nHas the model yielded correct prediction?")
       feedback = input(Fore.LIGHTMAGENTA_EX + "Enter y/n for yes/no: ").lower()
 
-      if feedback not in ("y", "n", "yes", "no"):
+      if feedback not in ("y", "n"):
             print(Fore.RED + "\nError: Invalid Feedback\n")
             return
 
       with open(datafile, "w") as file:
             blacklist, whitelist = data["blacklist"], data["whitelist"]
 
-            if (prediction and (feedback == "y" or "yes")) or (not prediction and (feedback == "n" or "no")):
+            if (prediction and feedback == "y") or (not prediction and feedback == "n"):
                   whitelist.remove(url) if url in whitelist else None
                   blacklist.append(url) if url not in blacklist else None
-            elif (prediction and (feedback == "n" or "no")) or (not prediction and (feedback == "y" or "yes")):
+            elif (prediction and feedback == "n") or (not prediction and feedback == "y"):
                   blacklist.remove(url) if url in blacklist else None
                   whitelist.append(url) if url not in whitelist else None
 
