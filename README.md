@@ -17,14 +17,14 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 >  ```
 > 2) Navigate to the project directory:
 >  ```sh
->  cd <project directory location>
+>  cd project directory location
 >  ```
 >OR
 >
 > 1) If Git is not installed, go to the top of this page, click the **Code button**, select **Download ZIP**, and extract it to a suitable location.
 > 2) Navigate to the project directory in Command Prompt:
 >  ```sh
->  cd <project directory location>
+>  cd project directory location
 >  ```
 >
 > 3) Create a virtual environment in the project folder:
@@ -34,10 +34,15 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 > Here, _env_ is the name of the virtual environment, but you may change it to your preference. If you choose a different name, make sure you edit ```run.bat``` and replace _env_ there with your name. **This is extremely important!**
 >
 > 4) Activate the virtual environment:
->     - Windows: \
-      ``` env\Scripts\activate```
->    - MacOS/Linux: \
-      ```source env/bin/activate```
+>  - Windows
+>  ```
+>  env\Scripts\activate
+>  ```
+>  - MacOS/Linux
+>  ```
+>  source env/bin/activate
+>  ```
+> \
 > 5) Install dependencies from **requirements.txt**:
 >  ```sh
 >  py -m pip install -r requirements.txt
@@ -54,7 +59,7 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 > 2) **Manual Execution**
 > - Navigate to the project directory in Command Prompt:
 >  ```sh
->  cd <project directory location>
+>  cd project directory location
 >  ```
 > - Enter the snippet:
 >  ```sh
