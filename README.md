@@ -10,7 +10,7 @@ This harmless prank was reproduced so widely that many users began to doubt ever
 Additionally, it maintains indices of links as dictated by the user's feedback. This helps it recall any links which it tested previously.
 
 > ## Installation
-> Installation requires [Python](https://www.python.org/downloads/) in your device beforehand. This tutorial uses a Command Line Interface (CLI) to install the model. Command Prompt is recommended, but you may use another terminal:
+> Installation requires _[Python](https://www.python.org/downloads/)_ in your device beforehand. This tutorial uses a Command Line Interface (CLI) to install the model. Command Prompt is recommended, but you may use another terminal:
 >  1) If Git is installed, then clone the repository in Command Prompt: 
 >  ```sh
 >  git clone https://github.com/AdityaKDevHub/Is-Rick-Inside.git
