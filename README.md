@@ -29,7 +29,7 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 >
 > 3) Create a virtual environment in the project folder:
 >  ```sh
->  py -m venv env
+>  python -m venv env
 >  ```
 > Here, _env_ is the name of the virtual environment, but you may change it to your preference. If you choose a different name, make sure you edit ```run.bat``` and replace _env_ there with your name. **This is extremely important!**
 >
@@ -45,7 +45,7 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 > \
 > 5) Install dependencies from **requirements.txt**:
 >  ```sh
->  py -m pip install -r requirements.txt
+>  python -m pip install -r requirements.txt
 >  ```
 
 > ## Execution
