@@ -35,13 +35,9 @@ Here, _env_ is the name of the virtual environment, but you may change it to you
 >
 > 4) Activate the virtual environment:
 >     - Windows:
-      ```
-      env\Scripts\activate
-      ```
+      ```env\Scripts\activate```
 >    - MacOS/Linux:
-      ```sh
-      source env/bin/activate
-      ```
+      ```source env/bin/activate```
 > 5) Install dependencies from **requirements.txt**:
 >  ```sh
 >  python -m pip install -r requirements.txt
