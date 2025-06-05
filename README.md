@@ -31,7 +31,7 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 >  ```sh
 >  python -m venv env
 >  ```
-Here, _env_ is the name of the virtual environment, but you may change it to your preference.
+Here, _env_ is the name of the virtual environment, but you may change it to your preference. If you decide to change its name, make sure you edit ```run.bat``` before running.
 >
 > 4) Activate the virtual environment:
 >     - Windows:
