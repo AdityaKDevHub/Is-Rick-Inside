@@ -1,0 +1,16 @@
+{
+    "blacklist": [
+        "https://www.youtube.com/watch?v=BBJa32lCaaY",
+        "www.youtube.com/watch?v=xvFZjo5PgG0",
+        "https://youtube.com/watch?v=oHg5SJYRHA0&si=r-qjtmlw-ov7EEKD",
+        "https://www.youtube.com/watch?v=o-YBDTqX_ZU",
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    ],
+    "whitelist": [
+        "https://youtu.be/YnyYsEBJ80I?si=AkdPSIzJcOpY1Mj5",
+        "https://youtu.be/OC1jdTqqWtk?si=Kj7xJUvEjsv4R7VS",
+        "https://youtu.be/b5QtNtkVCEo?si=owDUVqRURgjYIN8k",
+        "https://youtu.be/nyDXzxXRxhg?si=3XC5ETCS4ihceBKO",
+        "https://youtu.be/Jw9H_OdcKC8?si=jH5ZxTLP2q4SZDOo"
+    ]
+}
