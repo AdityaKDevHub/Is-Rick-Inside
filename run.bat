@@ -1,2 +1,2 @@
 @echo off
-start "" ".\rdenv\Scripts\pythonw.exe" kernel.py
+start "" ".\env\Scripts\pythonw.exe" kernel.py
