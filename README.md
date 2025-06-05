@@ -29,13 +29,13 @@ Additionally, it maintains indices of links as dictated by the user's feedback. 
 >
 > 3) Create a virtual environment in the project folder:
 >  ```sh
->  py -m venv env
+>  python -m venv env
 >  ```
 Here, _env_ is the name of the virtual environment, but you may change it to your preference.
 >
 > 4) Activate the virtual environment:
 >     - Windows:
-      ```sh
+      ```
       env\Scripts\activate
       ```
 >    - MacOS/Linux:
@@ -44,7 +44,7 @@ Here, _env_ is the name of the virtual environment, but you may change it to you
       ```
 > 5) Install dependencies from **requirements.txt**:
 >  ```sh
->  py -m pip install -r requirements.txt
+>  python -m pip install -r requirements.txt
 >  ```
 
 > ## Execution
