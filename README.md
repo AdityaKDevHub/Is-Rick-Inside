@@ -8,6 +8,7 @@ This harmless prank was reproduced so widely that many users began to doubt ever
 > _Is Rick Inside?_ is one of its kinds of models. \
 >Unlike other contemporary rickroll detectors, which rely on references to 'rickroll' in the video hyperlink, description, or comments and produce probabilities, _Is Rick Inside?_ examines each frame of the video and yields a definite output! \
 Additionally, it maintains indices of links as dictated by the user's feedback. This helps it recall any links which it tested previously.
+> _Is Rick Inside?_ also contains a Graphical User Interface (GUI), to notify about rickroll instances.
 
 > ## Installation
 > Installation requires [Python](https://www.python.org/downloads/) in your device beforehand. This tutorial uses a Command Line Interface (CLI) to install the model. Command Prompt is recommended, but you may use another terminal:
